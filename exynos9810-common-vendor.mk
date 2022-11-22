@@ -114,6 +114,8 @@ PRODUCT_PACKAGES += \
     libsecnativefeature \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
+    libSemDataProps \
+    libSemTelephonyProps \
     libsensorlistener \
     libsynaFpSensorTestNwd \
     libuniapi \
@@ -140,16 +142,18 @@ PRODUCT_PACKAGES += \
     libbt-vendor.exynos9810 \
     libengmode_client \
     libkeymaster2_mdfpp \
-    libril-samsung \
+    libril_sem \
     libsec-ril \
-    libsec-ril-dsds \
+    libsec_semRil \
     libskeymaster3device \
     libwvhidl \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
+    vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.radio@2.0 \
     vendor.samsung.hardware.radio@2.1 \
+    vendor.samsung.hardware.radio@2.2 \
     cbd \
     android.hardware.drm@1.3-service.widevine \
     gpsd \
